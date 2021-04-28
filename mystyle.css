@@ -1,0 +1,99 @@
+body {
+    font-family: Lato, sans-serif;
+    font-size: 18px;
+}
+main {
+    background: #eeeeee;
+    margin: 35px 10px;
+    padding: 20px;
+    border-radius: 10px;
+}
+#title {
+    font-size: 50px;
+    text-align: center;
+}
+#to-top {
+    position: fixed;
+    width: 30px;
+    height: 30px;
+    max-width: 100%;
+    border: 5px solid #5f5f5f;
+    border-radius: 50%;
+    bottom: 90px;
+    right: 20px;
+}
+#to-top::before {
+    content: "";
+    position: absolute;
+    width: 0;
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+    border-bottom: 20px solid #5f5f5f;
+    top: 2px;
+    left: 5px;
+}
+#to-top:hover {
+    color: black;
+    border-color: black;
+}
+#to-top:hover::before {
+    width: 0;
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+    border-bottom: 20px solid black;
+}
+figure {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+img {
+    width: 800px;
+    height: 100%;
+}
+#img-div {
+    background: #ffffff;
+    padding: 25px;
+    margin: 15px;
+    border-radius: 5px;
+}
+#image {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+#img-caption {
+    font-size: 16px;
+    position: relative;
+    top: 10px;
+}
+#tribute-info {
+    text-align: left;
+    margin: 0 auto;
+    max-width: 700px;
+}
+.caption {
+    text-align: center;
+    padding: 20px;
+    margin-bottom: -20px;
+}
+#phrase {
+    font-style: italic;
+    text-align: center;
+    margin: 50px;
+}
+a {
+    text-decoration: none;
+}
+a:visited {
+  color: #00008b;
+}
+a:hover {
+  color: dodgerblue;
+}
+#link {
+    font-size: 20px;
+    text-align: center;
+    font-weight: bold;
+}
